@@ -1,0 +1,124 @@
+[class*="col-"] {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.wraper {
+  padding: 4% 4% 0% 4%;
+  width: 100%;
+}
+.wraper-grey {
+  margin: 20px 0px;
+  background-color: grey;
+  padding: 4% 4%;
+  width: 100%;
+}
+
+.floatl {
+  float: left;
+}
+.float {
+  float: right;
+}
+
+.white-font {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+.trend {
+  background-color: white;
+  display: none;
+  box-shadow: 0 4px 8px 0 white;
+  max-width: 350px;
+  min-width: 300px;
+  margin-top: 30px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 10px;
+}
+
+.disContainer {
+  position: relative;
+}
+.badgePosition {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.buttonBack {
+  display: block;
+}
+.Getting-start {
+  margin: 20px 20px 20px 20px;
+}
+
+.testimonContainer {
+  margin: 0% 15%;
+  display: block;
+}
+.testimon {
+  background-color: rgb(240, 230, 230);
+  display: block;
+  width: 300px;
+  min-width: 300px;
+  height: 250px;
+  box-shadow: 0px 4px 8px 0px black;
+  margin: auto;
+  margin-top: 50px;
+}
+.topMargin {
+  margin-top: 100px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.buttonClass {
+  width: 100%;
+  z-index: 1;
+  margin-top: 200px;
+  position: absolute;
+}

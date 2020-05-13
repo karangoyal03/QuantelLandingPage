@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Social Likers</title>
+
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="divstylesheet.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./node_modules/fullpage.js/dist/fullpage.min.css" /> -->
+
+    <!-- <link rel="stylesheet" href="parallax.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleforman.css" />
+    <script src="scriptformovingman.js"></script>
+    <style>
+      body {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body style="margin: 0px; padding: 0px;">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top navbar-dropdown"
+    >
+      <a class="navbar-brand" href="#">Quantel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-1">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#navbarDropdown1"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Explore
+            </a>
+            <div class="dropdown-menu" id="navbarDropdown1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#navbarDropdown2"
+              navbarDropdown
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Internships
+            </a>
+            <div class="dropdown-menu" id="navbarDropdown2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#navbarDropdown3"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Startups
+            </a>
+            <div class="dropdown-menu" id="navbarDropdown3">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline p-1">
+          <button class="btn btn-outline-danger" type="button">
+            Request Invite
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- Navbar ends -->
+
+    <!-- Info about Quantel -->
+    <div class="jumbotron paral paralsec">
+      <div class="front pt-5">
+        <p class="lead ml-5" id="info"><span>Quantel</span> presents</p>
+        <h1 class="display-3 p-0 mt-0 ml-5" id="heading">
+          <span>V</span>
+          <span>i</span>
+          <span>r</span>
+          <span>t</span>
+          <span>u</span>
+          <span>a</span>
+          <span>l</span>
+          &nbsp;
+          <span>I</span>
+          <span>n</span>
+          <span>t</span>
+          <span>e</span>
+          <span>r</span>
+          <span>n</span>
+          <span>s</span>
+          <span>h</span>
+          <span>i</span>
+          <span>p</span>
+          &nbsp;
+          <span>P</span>
+          <span>r</span>
+          <span>o</span>
+          <span>g</span>
+          <span>r</span>
+          <span>a</span>
+          <span>m</span>
+        </h1>
+        <p class="lead ml-5">
+          &nbsp A first of its kind initiative to help college students looking
+          for internship opportunities.
+        </p>
+      </div>
+      <!-- <p class="ml-5" id="explore-para">Explore our Virtual <br> Internship Program</p> -->
+      <div id="explore">
+        <p class="ml-5" id="explore-para">
+          Explore our Virtual <br />
+          Internship Program
+        </p>
+
+        <a href="#box-target" id="explore">
+          <!-- <p class="ml-5" id="explore-para">Explore our Virtual <br> Internship Program</p> -->
+          <!-- Explore our Virtual <br> Internship Program  -->
+          <div class="box ml-5">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Info ends -->
+
+    <!-- <div class="jumbotron paral"> -->
+
+    <!-- <div class="outer" id="skipToMain"> -->
+
+    <!-- <section id="fullpage" class="sectional-scroll" data-module="SectionalScroll"> -->
+
+    <!-- <div class="pager">
+            </div> -->
+
+    <!-- <div class="mark">
+                <svg id="flatlinesCenter" viewBox="0 0 3200 1800" preserveAspectRatio="xMidYMid slice">
+                    <path id="flatlinesCenter1" stroke="#1941e1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter2" stroke="#1a43e1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter3" stroke="#1b46e1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter4" stroke="#1c48e1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter5" stroke="#1d4be1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter6" stroke="#1e4de1" d="M-195 900h3589" />
+                    <path id="flatlinesCenter7" stroke="#1f50e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter8" stroke="#1f52e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter9" stroke="#2055e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter10" stroke="#2157e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter11" stroke="#225ae0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter12" stroke="#235ce0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter13" stroke="#245fe0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter14" stroke="#2561e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter15" stroke="#2664e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter16" stroke="#2766e0" d="M-195 900h3589" />
+                    <path id="flatlinesCenter17" stroke="#2869df" d="M-195 900h3589" />
+                    <path id="flatlinesCenter18" stroke="#296bdf" d="M-195 900h3589" />
+                    <path id="flatlinesCenter19" stroke="#2a6edf" d="M-195 900h3589" />
+                    <path id="flatlinesCenter20" stroke="#2b70df" d="M-195 900h3589" />
+                    <path id="flatlinesCenter21" stroke="#2c73df" d="M-195 900h3589" />
+                    <path id="flatlinesCenter22" stroke="#2c75df" d="M-195 900h3589" />
+                    <path id="flatlinesCenter23" stroke="#2d78df" d="M-195 900h3589" />
+                    <path id="flatlinesCenter24" stroke="#2e7adf" d="M-195 900h3589" />
+                    <path id="flatlinesCenter25" stroke="#2f7ddf" d="M-195 900h3589" />
+                    <path id="flatlinesCenter26" stroke="#307fdf" d="M-195 900h3589" />
+                    <path id="flatlinesCenter27" stroke="#3182de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter28" stroke="#3284de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter29" stroke="#3387de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter30" stroke="#3489de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter31" stroke="#358cde" d="M-195 900h3589" />
+                    <path id="flatlinesCenter32" stroke="#368ede" d="M-195 900h3589" />
+                    <path id="flatlinesCenter33" stroke="#3791de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter34" stroke="#3893de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter35" stroke="#3996de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter36" stroke="#3998de" d="M-195 900h3589" />
+                    <path id="flatlinesCenter37" stroke="#3a9bdd" d="M-195 900h3589" />
+                    <path id="flatlinesCenter38" stroke="#3b9ddd" d="M-195 900h3589" />
+                    <path id="flatlinesCenter39" stroke="#3ca0dd" d="M-195 900h3589" />
+                    <path id="flatlinesCenter40" stroke="#3da2dd" d="M-195 900h3589" />
+                </svg>
+
+            </div> -->
+
+    <!-- <div class="section-wrapper" id="scroll-test" style="position: relative;height: 100%;touch-action: none;top: 0px">
+
+        <div class="hero-with-partnership-mark section -bg-dark-blue-gradient text-right vertical-centered  fp-auto-height-responsive"
+            data-module="HeroWithPartnershipMark">
+
+            <div class="bg"></div>
+
+            <div class="mark">
+                <svg id="downRightCenter" viewBox="0 0 3200 1800" preserveAspectRatio="xMidYMid slice">
+                    <path id="downRightCenter1" stroke="#1941e1" d="M1224.063022-794.90973l643.440314 2703.357983" />
+                    <path id="downRightCenter2" stroke="#1a43e1" d="M1279.787042-778.94415l513.634407 2683.109622" />
+                    <path id="downRightCenter3" stroke="#1b46e1" d="M1335.536164-763.214196l383.885165 2663.36928" />
+                    <path id="downRightCenter4" stroke="#1c48e1" d="M1391.478759-747.3521l253.787967 2643.257532" />
+                    <path id="downRightCenter5" stroke="#1d4be1" d="M1447.149558-731.406955l124.195371 2623.08681" />
+                    <path id="downRightCenter6" stroke="#1e4de1" d="M1503.092751-715.543578l-5.902767 2602.974719" />
+                    <path id="downRightCenter7" stroke="#1f50e0" d="M1558.816173-699.57928l-135.709015 2582.727298" />
+                    <path id="downRightCenter8" stroke="#1f52e0" d="M1614.707085-683.735995l-265.594782 2562.692503" />
+                    <path id="downRightCenter9" stroke="#2055e0" d="M1670.50789-667.987229l-395.554515 2542.875548" />
+                    <path id="downRightCenter10" stroke="#2157e0" d="M1726.340317-651.983257l-525.362644 2522.627443" />
+                    <path id="downRightCenter11" stroke="#225ae0" d="M1782.122566-636.180586L1126.87629 1866.414968" />
+                    <path id="downRightCenter12" stroke="#235ce0" d="M1837.850911-620.396471l-784.914973 2482.639766" />
+                    <path id="downRightCenter13" stroke="#245fe0" d="M1893.73596-604.373346L978.799549 1857.940677" />
+                    <path id="downRightCenter14" stroke="#2561e0" d="M1949.464903-588.587949L904.859538 1853.768065" />
+                    <path id="downRightCenter15" stroke="#2664e0" d="M2005.369448-572.618386L830.664663 1849.626134" />
+                    <path id="downRightCenter16" stroke="#2766e0" d="M2061.151355-556.814776L756.562341 1845.396574" />
+                    <path id="downRightCenter17" stroke="#2869df" d="M2117.04167-540.972773L682.568084 1841.206345" />
+                    <path id="downRightCenter18" stroke="#296bdf" d="M2172.76569-525.007193L608.486538 1836.922625" />
+                    <path id="downRightCenter19" stroke="#2a6edf" d="M2228.655064-509.165532L534.491342 1832.732054" />
+                    <path id="downRightCenter20" stroke="#2b70df" d="M2284.457406-493.415142L460.331474 1828.663523" />
+                    <path id="downRightCenter21" stroke="#2c73df" d="M2340.288893-477.411512L386.356712 1824.419733" />
+                    <path id="downRightCenter22" stroke="#2c75df" d="M2396.07174-461.60756L312.255671 1820.189575" />
+                    <path id="downRightCenter23" stroke="#2d78df" d="M2451.853648-445.80395L238.153692 1815.959074" />
+                    <path id="downRightCenter24" stroke="#2e7adf" d="M2507.684793-429.79938L164.178332 1811.714002" />
+                    <path id="downRightCenter25" stroke="#2f7ddf" d="M2563.467042-413.99671L90.07695 1807.484785" />
+                    <path id="downRightCenter26" stroke="#307fdf" d="M2619.318622-398.04536L16.042762 1803.401338" />
+                    <path id="downRightCenter27" stroke="#3182de" d="M2675.099932-382.243031L-58.05862 1799.172119" />
+                    <path id="downRightCenter28" stroke="#3284de" d="M2730.990844-366.399747L-132.053475 1794.98061" />
+                    <path id="downRightCenter29" stroke="#3387de" d="M2786.714266-350.435449l-2992.848688 2141.13362" />
+                    <path id="downRightCenter30" stroke="#3489de" d="M2842.60458-334.593446l-3122.7342 2121.101047" />
+                    <path id="downRightCenter31" stroke="#358cde" d="M2898.405983-318.843398L-354.289487 1782.43907" />
+                    <path id="downRightCenter32" stroke="#368ede" d="M2954.291972-302.81993L-428.426132 1778.13423" />
+                    <path id="downRightCenter33" stroke="#3791de" d="M3010.019975-287.034876L-502.366827 1773.963497" />
+                    <path id="downRightCenter34" stroke="#3893de" d="M3065.803164-271.231863L-576.468209 1769.734279" />
+                    <path id="downRightCenter35" stroke="#3996de" d="M3121.63337-255.227635l-3772.076 2020.717184" />
+                    <path id="downRightCenter36" stroke="#3998de" d="M3177.416559-239.424623l-3901.96151 2000.684611" />
+                    <path id="downRightCenter37" stroke="#3a9bdd" d="M3233.26754-223.474555l-4031.845739 1980.65144" />
+                    <path id="downRightCenter38" stroke="#3b9ddd" d="M3289.049448-207.670945l-4161.72903 1960.618611" />
+                    <path id="downRightCenter39" stroke="#3ca0dd" d="M3344.993325-191.809447L-946.835123 1748.697671" />
+                    <path id="downRightCenter40" stroke="#3da2dd"
+                        d="M3400.663782-175.863362l-4421.421045 1920.336396" />
+                </svg> </div>
+
+            <div class="section-content">
+                <a class="photo-render is-hidden-tablet"
+                    href="/featured-insights/india/reopening-india-implications-for-economic-activity-and-workers"
+                    style="background-image: url('/~/media/McKinsey/Home page/May 5 2020/India2-1127551530-Homepage-1080x1080.ashx');">
+                </a>
+
+                <div class="photo-render is-hidden-mobile"
+                    style="background-image: url('/~/media/McKinsey/Home page/May 5 2020/India2-1127551530-Homepage-1080x1080.ashx');">
+                </div>
+
+                <!-- <div class="text-wrapper" style="position:absolute;">
+                            <div class="text-render text-xxl">
+                                <div class="eyebrow">
+                                </div>
+                                <a class="is-hidden-tablet"
+                                    href="/featured-insights/india/reopening-india-implications-for-economic-activity-and-workers">
+                                    <h2 class="headline">
+                                        Reopening India </h2>
+                                </a>
+                                <h2 class="headline is-hidden-mobile">
+                                    Reopening India </h2>
+                                <p class="description">
+                                    As economic activity resumes, India needs to build the capability to manage
+                                    granular,
+                                    dynamic, and localized lockdowns and restarts.
+                                </p>
+                                <div class="cta-container">
+                                    <a class="cta -arrow"
+                                        href="/featured-insights/india/reopening-india-implications-for-economic-activity-and-workers"
+                                        target="" aria-label="">Read the article</a>
+                                    <a class="cta -arrow"
+                                        href="/featured-insights/coronavirus-leading-through-the-crisis" target=""
+                                        aria-label="">Explore all our coronavirus insights</a>
+                                </div>
+                            </div>
+                        </div> -->
+
+    <!-- </div> -->
+    <!-- 
+            <div class="hero-with-partnership-mark section -bg-dark-blue-gradient text-right vertical-low  fp-auto-height-responsive"
+                data-module="HeroWithPartnershipMark">
+
+                <div class="bg"></div>
+
+                <div class="mark">
+                    <svg id="downRightBottom" viewBox="0 0 3200 1800" preserveAspectRatio="xMidYMid slice">
+                        <path id="downRightBottom1" stroke="#1941e1"
+                            d="M-305.057915 4635.94398l3919.913682-7561.980083" />
+                        <path id="downRightBottom2" stroke="#1a43e1"
+                            d="M-329.287957 4546.781402l3946.373775-7383.654924" />
+                        <path id="downRightBottom3" stroke="#1b46e1"
+                            d="M-354.518013 4456.61882L3618.31587-2748.710942" />
+                        <path id="downRightBottom4" stroke="#1c48e1"
+                            d="M-378.748066 4366.45624L3620.54592-2660.548363" />
+                        <path id="downRightBottom5" stroke="#1d4be1"
+                            d="M-404.46893 4276.698255l4026.735713-6848.488628" />
+                        <path id="downRightBottom6" stroke="#1e4de1"
+                            d="M-428.698981 4187.535674L3624.496834-2482.62779" />
+                        <path id="downRightBottom7" stroke="#1f50e0"
+                            d="M-452.929034 4097.373093l4079.65592-6491.838305" />
+                        <path id="downRightBottom8" stroke="#1f52e0"
+                            d="M-478.649898 4007.615108l4107.09765-6313.32234" />
+                        <path id="downRightBottom9" stroke="#2055e0"
+                            d="M-502.389132 3918.047934l4132.576119-6135.187985" />
+                        <path id="downRightBottom10" stroke="#2157e0"
+                            d="M-528.109995 3828.289949l4160.017847-5956.67202" />
+                        <path id="downRightBottom11" stroke="#225ae0"
+                            d="M-552.340048 3738.127368l4186.477951-5778.34686" />
+                        <path id="downRightBottom12" stroke="#235ce0"
+                            d="M-577.570095 3647.964793l4212.938048-5600.021695" />
+                        <path id="downRightBottom13" stroke="#245fe0"
+                            d="M-601.800145 3558.802203l4239.39815-5421.696534" />
+                        <path id="downRightBottom14" stroke="#2561e0"
+                            d="M-626.0302 3468.63963l4265.858255-5243.371372" />
+                        <path id="downRightBottom15" stroke="#2664e0"
+                            d="M-651.260253 3379.477041l4292.31836-5065.04621" />
+                        <path id="downRightBottom16" stroke="#2766e0"
+                            d="M-676.385708 3288.228251l4319.569274-4885.548615" />
+                        <path id="downRightBottom17" stroke="#2869df"
+                            d="M-701.21117 3199.55648L3645.009022-1508.6486" />
+                        <path id="downRightBottom18" stroke="#296bdf"
+                            d="M-725.441213 3109.393899l4372.680286-4529.87992" />
+                        <path id="downRightBottom19" stroke="#2a6edf"
+                            d="M-750.671268 3020.23132L3648.469123-1331.32344" />
+                        <path id="downRightBottom20" stroke="#2b70df"
+                            d="M-774.90132 2930.068737L3650.699175-1243.16086" />
+                        <path id="downRightBottom21" stroke="#2c73df"
+                            d="M-800.026783 2839.819938l4452.851418-3993.732" />
+                        <path id="downRightBottom22" stroke="#2c75df"
+                            d="M-824.361418 2750.743577l4478.520695-3816.579276" />
+                        <path id="downRightBottom23" stroke="#2d78df"
+                            d="M-849.08229 2660.985596L3656.88014-977.07771" />
+                        <path id="downRightBottom24" stroke="#2e7adf"
+                            d="M-873.716933 2570.332196L3658.514788-888.424322" />
+                        <path id="downRightBottom25" stroke="#2f7ddf"
+                            d="M-898.542387 2481.660436L3660.340242-799.752548" />
+                        <path id="downRightBottom26" stroke="#307fdf"
+                            d="M-923.772443 2391.497854L3661.570293-711.58997" />
+                        <path id="downRightBottom27" stroke="#3182de"
+                            d="M-948.493303 2301.739864L3664.291158-622.831989" />
+                        <path id="downRightBottom28" stroke="#3284de"
+                            d="M-972.723355 2211.577282L3666.521209-534.66941" />
+                        <path id="downRightBottom29" stroke="#3387de" d="M-997.358 2121.923895L3668.155855-445.01601" />
+                        <path id="downRightBottom30" stroke="#3489de"
+                            d="M-1022.588046 2031.761314L3669.385906-356.85343" />
+                        <path id="downRightBottom31" stroke="#358cde"
+                            d="M-1047.413509 1942.08954L3671.211362-269.18167" />
+                        <path id="downRightBottom32" stroke="#368ede"
+                            d="M-1072.13437 1852.33156L3673.932225-180.42368" />
+                        <path id="downRightBottom33" stroke="#3791de"
+                            d="M-1096.769014 1762.678163L3675.566873-90.770289" />
+                        <path id="downRightBottom34" stroke="#3893de" d="M-1120.999068 1672.51559L3677.796922-2.6077" />
+                        <path id="downRightBottom35" stroke="#3996de"
+                            d="M-1146.229124 1582.353008L3679.026974 85.55488" />
+                        <path id="downRightBottom36" stroke="#3998de"
+                            d="M-1170.459166 1493.19043l4851.71619-1318.47297" />
+                        <path id="downRightBottom37" stroke="#3a9bdd"
+                            d="M-1195.689221 1403.027848L3682.487075 262.88004" />
+                        <path id="downRightBottom38" stroke="#3b9ddd"
+                            d="M-1220.410081 1313.269859L3685.20794 351.63802" />
+                        <path id="downRightBottom39" stroke="#3ca0dd"
+                            d="M-1245.640137 1223.107277L3686.437992 439.8006" />
+                        <path id="downRightBottom40" stroke="#3da2dd"
+                            d="M-1270.46559 1134.435517l4958.729036-605.963144" />
+                    </svg> </div>
+
+                <div class="section-content">
+                    <a class="photo-render is-hidden-tablet"
+                        href="/industries/social-sector/our-insights/covid-19s-effect-on-jobs-at-small-businesses-in-the-united-states"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 5 2020/US-jobs-small-businesses-1192159134-HP-1080x1080.ashx');">
+                    </a>
+
+                    <div class="photo-render is-hidden-mobile"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 5 2020/US-jobs-small-businesses-1192159134-HP-1080x1080.ashx');">
+                    </div> -->
+
+    <!-- <div class="text-wrapper">
+                            <div class="text-render text-m">
+                                <div class="eyebrow">
+                                </div>
+                                <a class="is-hidden-tablet"
+                                    href="/industries/social-sector/our-insights/covid-19s-effect-on-jobs-at-small-businesses-in-the-united-states">
+                                    <h2 class="headline">
+                                        COVID-19’s effect on US small businesses </h2>
+                                </a>
+                                <h2 class="headline is-hidden-mobile">
+                                    COVID-19’s effect on US small businesses </h2>
+                                <p class="description">
+                                    Thirty million small-business jobs in the United States are vulnerable—a higher
+                                    share
+                                    than at larger private-sector employers.
+                                </p>
+                                <div class="cta-container">
+                                    <a class="cta -arrow"
+                                        href="/industries/social-sector/our-insights/covid-19s-effect-on-jobs-at-small-businesses-in-the-united-states"
+                                        target="" aria-label="">Read the article</a>
+                                    <a class="cta -arrow"
+                                        href="/featured-insights/coronavirus-leading-through-the-crisis" target=""
+                                        aria-label="">Explore all our coronavirus insights</a>
+                                </div>
+                            </div>
+                        </div> -->
+    <!-- </div>
+
+            </div> -->
+
+    <!-- <div class="hero-with-partnership-mark section -bg-dark-blue-gradient text-right vertical-centered  fp-auto-height-responsive"
+                data-module="HeroWithPartnershipMark">
+
+                <div class="bg"></div>
+
+                <div class="mark">
+                    <svg id="downRightCenter" viewBox="0 0 3200 1800" preserveAspectRatio="xMidYMid slice">
+                        <path id="downRightCenter1" stroke="#1941e1"
+                            d="M1224.063022-794.90973l643.440314 2703.357983" />
+                        <path id="downRightCenter2" stroke="#1a43e1"
+                            d="M1279.787042-778.94415l513.634407 2683.109622" />
+                        <path id="downRightCenter3" stroke="#1b46e1"
+                            d="M1335.536164-763.214196l383.885165 2663.36928" />
+                        <path id="downRightCenter4" stroke="#1c48e1" d="M1391.478759-747.3521l253.787967 2643.257532" />
+                        <path id="downRightCenter5" stroke="#1d4be1"
+                            d="M1447.149558-731.406955l124.195371 2623.08681" />
+                        <path id="downRightCenter6" stroke="#1e4de1"
+                            d="M1503.092751-715.543578l-5.902767 2602.974719" />
+                        <path id="downRightCenter7" stroke="#1f50e0"
+                            d="M1558.816173-699.57928l-135.709015 2582.727298" />
+                        <path id="downRightCenter8" stroke="#1f52e0"
+                            d="M1614.707085-683.735995l-265.594782 2562.692503" />
+                        <path id="downRightCenter9" stroke="#2055e0"
+                            d="M1670.50789-667.987229l-395.554515 2542.875548" />
+                        <path id="downRightCenter10" stroke="#2157e0"
+                            d="M1726.340317-651.983257l-525.362644 2522.627443" />
+                        <path id="downRightCenter11" stroke="#225ae0"
+                            d="M1782.122566-636.180586L1126.87629 1866.414968" />
+                        <path id="downRightCenter12" stroke="#235ce0"
+                            d="M1837.850911-620.396471l-784.914973 2482.639766" />
+                        <path id="downRightCenter13" stroke="#245fe0"
+                            d="M1893.73596-604.373346L978.799549 1857.940677" />
+                        <path id="downRightCenter14" stroke="#2561e0"
+                            d="M1949.464903-588.587949L904.859538 1853.768065" />
+                        <path id="downRightCenter15" stroke="#2664e0"
+                            d="M2005.369448-572.618386L830.664663 1849.626134" />
+                        <path id="downRightCenter16" stroke="#2766e0"
+                            d="M2061.151355-556.814776L756.562341 1845.396574" />
+                        <path id="downRightCenter17" stroke="#2869df"
+                            d="M2117.04167-540.972773L682.568084 1841.206345" />
+                        <path id="downRightCenter18" stroke="#296bdf"
+                            d="M2172.76569-525.007193L608.486538 1836.922625" />
+                        <path id="downRightCenter19" stroke="#2a6edf"
+                            d="M2228.655064-509.165532L534.491342 1832.732054" />
+                        <path id="downRightCenter20" stroke="#2b70df"
+                            d="M2284.457406-493.415142L460.331474 1828.663523" />
+                        <path id="downRightCenter21" stroke="#2c73df"
+                            d="M2340.288893-477.411512L386.356712 1824.419733" />
+                        <path id="downRightCenter22" stroke="#2c75df"
+                            d="M2396.07174-461.60756L312.255671 1820.189575" />
+                        <path id="downRightCenter23" stroke="#2d78df"
+                            d="M2451.853648-445.80395L238.153692 1815.959074" />
+                        <path id="downRightCenter24" stroke="#2e7adf"
+                            d="M2507.684793-429.79938L164.178332 1811.714002" />
+                        <path id="downRightCenter25" stroke="#2f7ddf" d="M2563.467042-413.99671L90.07695 1807.484785" />
+                        <path id="downRightCenter26" stroke="#307fdf"
+                            d="M2619.318622-398.04536L16.042762 1803.401338" />
+                        <path id="downRightCenter27" stroke="#3182de"
+                            d="M2675.099932-382.243031L-58.05862 1799.172119" />
+                        <path id="downRightCenter28" stroke="#3284de"
+                            d="M2730.990844-366.399747L-132.053475 1794.98061" />
+                        <path id="downRightCenter29" stroke="#3387de"
+                            d="M2786.714266-350.435449l-2992.848688 2141.13362" />
+                        <path id="downRightCenter30" stroke="#3489de"
+                            d="M2842.60458-334.593446l-3122.7342 2121.101047" />
+                        <path id="downRightCenter31" stroke="#358cde"
+                            d="M2898.405983-318.843398L-354.289487 1782.43907" />
+                        <path id="downRightCenter32" stroke="#368ede"
+                            d="M2954.291972-302.81993L-428.426132 1778.13423" />
+                        <path id="downRightCenter33" stroke="#3791de"
+                            d="M3010.019975-287.034876L-502.366827 1773.963497" />
+                        <path id="downRightCenter34" stroke="#3893de"
+                            d="M3065.803164-271.231863L-576.468209 1769.734279" />
+                        <path id="downRightCenter35" stroke="#3996de"
+                            d="M3121.63337-255.227635l-3772.076 2020.717184" />
+                        <path id="downRightCenter36" stroke="#3998de"
+                            d="M3177.416559-239.424623l-3901.96151 2000.684611" />
+                        <path id="downRightCenter37" stroke="#3a9bdd"
+                            d="M3233.26754-223.474555l-4031.845739 1980.65144" />
+                        <path id="downRightCenter38" stroke="#3b9ddd"
+                            d="M3289.049448-207.670945l-4161.72903 1960.618611" />
+                        <path id="downRightCenter39" stroke="#3ca0dd"
+                            d="M3344.993325-191.809447L-946.835123 1748.697671" />
+                        <path id="downRightCenter40" stroke="#3da2dd"
+                            d="M3400.663782-175.863362l-4421.421045 1920.336396" />
+                    </svg> </div>
+
+                <div class="section-content">
+                    <a class="photo-render is-hidden-tablet"
+                        href="/business-functions/strategy-and-corporate-finance/our-insights/the-restart"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 4 2020/the-restart-1179134643-HP-1080x1080.ashx');">
+                    </a>
+
+                    <div class="photo-render is-hidden-mobile"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 4 2020/the-restart-1179134643-HP-1080x1080.ashx');">
+                    </div> -->
+
+    <!-- <div class="text-wrapper">
+                            <div class="text-render text-l">
+                                <div class="eyebrow">
+                                </div>
+                                <a class="is-hidden-tablet"
+                                    href="/business-functions/strategy-and-corporate-finance/our-insights/the-restart">
+                                    <h2 class="headline">
+                                        The Restart </h2>
+                                </a>
+                                <h2 class="headline is-hidden-mobile">
+                                    The Restart </h2>
+                                <p class="description">
+                                    CEOs can take eight actions to ensure a safe and successful relaunch of economic
+                                    activity.
+                                </p>
+                                <div class="cta-container">
+                                    <a class="cta -arrow"
+                                        href="/business-functions/strategy-and-corporate-finance/our-insights/the-restart"
+                                        target="" aria-label="">Read the article</a>
+                                    <a class="cta -arrow"
+                                        href="/featured-insights/coronavirus-leading-through-the-crisis" target=""
+                                        aria-label="">Explore all our coronavirus insights</a>
+                                </div>
+                            </div>
+                        </div> -->
+    <!-- </div>
+
+            </div>
+
+            <div class="hero-with-partnership-mark section -bg-dark-blue-gradient text-left vertical-centered  fp-auto-height-responsive"
+                data-module="HeroWithPartnershipMark">
+
+                <div class="bg"></div>
+
+                <div class="mark">
+                    <svg id="downLeftCenter" viewBox="0 0 3200 1800" preserveAspectRatio="xMidYMid slice">
+                        <path id="downLeftCenter1" stroke="#1941e1" d="M1784.979125-1448.54675l-316.111068 4061.0262" />
+                        <path id="downLeftCenter2" stroke="#1a43e1" d="M1723.078524-1434.99687l-168.30987 4051.92643" />
+                        <path id="downLeftCenter3" stroke="#1b46e1"
+                            d="M1659.721106-1418.366439l-20.595039 4039.665561" />
+                        <path id="downLeftCenter4" stroke="#1c48e1" d="M1597.82051-1402.816545l127.20616 4030.565791" />
+                        <path id="downLeftCenter5" stroke="#1d4be1"
+                            d="M1536.261931-1386.326967l274.323318 4019.586635" />
+                        <path id="downLeftCenter6" stroke="#1e4de1"
+                            d="M1473.361325-1370.77708l422.124516 4010.486865" />
+                        <path id="downLeftCenter7" stroke="#1f50e0" d="M1411.802744-1355.28751l569.241673 3999.50771" />
+                        <path id="downLeftCenter8" stroke="#1f52e0"
+                            d="M1349.103317-1340.596762l717.640544 3989.126226" />
+                        <path id="downLeftCenter9" stroke="#2055e0"
+                            d="M1287.202717-1324.04688l865.441742 3980.026456" />
+                        <path id="downLeftCenter10" stroke="#2157e0"
+                            d="M1225.613982-1308.72831l1011.619207 3969.389321" />
+                        <path id="downLeftCenter11" stroke="#225ae0"
+                            d="M1161.884397-1294.208581l1159.078386 3959.349858" />
+                        <path id="downLeftCenter12" stroke="#235ce0"
+                            d="M1100.325818-1277.719004l1306.195543 3948.370701" />
+                        <path id="downLeftCenter13" stroke="#245fe0"
+                            d="M1038.425219-1262.16912L2492.42196 2677.101813" />
+                        <path id="downLeftCenter14" stroke="#2561e0" d="M976.86664-1246.67954l1601.1139 3928.291774" />
+                        <path id="downLeftCenter15" stroke="#2664e0"
+                            d="M913.167204-1231.988799l1749.51277 3917.910293" />
+                        <path id="downLeftCenter16" stroke="#2766e0"
+                            d="M851.266605-1216.438914l1897.313968 3908.810522" />
+                        <path id="downLeftCenter17" stroke="#2869df"
+                            d="M789.708026-1199.949337L2834.139152 2697.88203" />
+                        <path id="downLeftCenter18" stroke="#296bdf"
+                            d="M725.978432-1185.429605L2917.868736 2702.3623" />
+                        <path id="downLeftCenter19" stroke="#2a6edf"
+                            d="M664.419853-1169.940026l2339.007462 3876.812749" />
+                        <path id="downLeftCenter20" stroke="#2b70df" d="M602.489097-1154.56115l2485.868968 3868.055" />
+                        <path id="downLeftCenter21" stroke="#2c73df"
+                            d="M540.930518-1138.071573l2632.986126 3857.075844" />
+                        <path id="downLeftCenter22" stroke="#2c75df"
+                            d="M478.23109-1121.38083l2781.384995 3846.694357" />
+                        <path id="downLeftCenter23" stroke="#2d78df"
+                            d="M415.67251-1105.89126l2928.502157 3835.715209" />
+                        <path id="downLeftCenter24" stroke="#2e7adf"
+                            d="M353.771912-1091.341374l3076.303354 3826.615438" />
+                        <path id="downLeftCenter25" stroke="#2f7ddf"
+                            d="M292.213334-1075.851794l3223.42051 3815.63628" />
+                        <path id="downLeftCenter26" stroke="#307fdf"
+                            d="M230.483746-1059.33206l3370.879688 3805.596814" />
+                        <path id="downLeftCenter27" stroke="#3182de"
+                            d="M166.613298-1045.611169l3519.62058 3796.155028" />
+                        <path id="downLeftCenter28" stroke="#3284de"
+                            d="M105.05472-1029.121591l3666.737737 3785.175873" />
+                        <path id="downLeftCenter29" stroke="#3387de" d="M43.264818-1013.943872L3855.58235 2761.87657" />
+                        <path id="downLeftCenter30" stroke="#3489de"
+                            d="M-19.263602-997.283287l3960.374377 3764.499271" />
+                        <path id="downLeftCenter31" stroke="#358cde" d="M-81.164203-983.733407L4027.011374 2771.6661" />
+                        <path id="downLeftCenter32" stroke="#368ede"
+                            d="M-143.722788-967.243827L4111.569953 2777.17652" />
+                        <path id="downLeftCenter33" stroke="#3791de"
+                            d="M-205.452375-951.72409l4402.751918 3734.38088" />
+                        <path id="downLeftCenter34" stroke="#3893de"
+                            d="M-267.352974-937.174203l4550.553116 3725.281107" />
+                        <path id="downLeftCenter35" stroke="#3996de"
+                            d="M-330.881393-921.513625l4698.60996 3713.959941" />
+                        <path id="downLeftCenter36" stroke="#3998de"
+                            d="M-392.610981-904.993891l4846.069136 3703.920476" />
+                        <path id="downLeftCenter37" stroke="#3a9bdd"
+                            d="M-454.16956-889.504311l4993.186294 3692.941318" />
+                        <path id="downLeftCenter38" stroke="#3b9ddd"
+                            d="M-516.07016-872.95443l5140.987493 3683.841552" />
+                        <path id="downLeftCenter39" stroke="#3ca0dd"
+                            d="M-580.598592-857.293836l5289.044351 3672.52037" />
+                        <path id="downLeftCenter40" stroke="#3da2dd"
+                            d="M-641.388489-843.116126l5434.624144 3663.164949" />
+                    </svg> </div>
+
+                <div class="section-content">
+                    <a class="photo-render is-hidden-tablet"
+                        href="/industries/financial-services/our-insights/covid-19-implications-for-law-firms"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 4 2020/law-firms-1073867654-HP-1080x1080.ashx');">
+                    </a>
+
+                    <div class="photo-render is-hidden-mobile"
+                        style="background-image: url('/~/media/McKinsey/Home page/May 4 2020/law-firms-1073867654-HP-1080x1080.ashx');">
+                    </div>
+
+                    <!-- <div class="text-wrapper">
+                            <div class="text-render text-m">
+                                <div class="eyebrow">
+                                </div>
+                                <a class="is-hidden-tablet"
+                                    href="/industries/financial-services/our-insights/covid-19-implications-for-law-firms">
+                                    <h2 class="headline">
+                                        COVID-19: Implications for law firms </h2>
+                                </a>
+                                <h2 class="headline is-hidden-mobile">
+                                    COVID-19: Implications for law firms </h2>
+                                <p class="description">
+                                    Lessons from past downturns can help law firms respond to near-term challenges and
+                                    set
+                                    the right priorities for the long run.
+                                </p>
+                                <div class="cta-container">
+                                    <a class="cta -arrow"
+                                        href="/industries/financial-services/our-insights/covid-19-implications-for-law-firms"
+                                        target="" aria-label="">Read the article</a>
+                                    <a class="cta -arrow"
+                                        href="/featured-insights/coronavirus-leading-through-the-crisis" target=""
+                                        aria-label="">Explore all our coronavirus insights</a>
+                                </div>
+                            </div>
+                        </div> -->
+    <!-- </div>
+
+    </div>
+
+    </div>
+
+    </section> -->
+
+    <!-- <div class="front pt-5">
+            <p class="lead ml-5" id="info"> <span>Quantel</span> presents</p>
+            <h1 class="display-3 p-0 mt-0 ml-5" id="heading">Virtual Internship Program</h1>
+            <p class="lead ml-5"> &nbsp A first of its kind initiative to help college
+                students looking for internship
+                opportunities.</p>
+        </div>
+        <div id="explore">
+            <p class="ml-5" id="explore-para">Explore our Virtual <br> Internship Program</p>
+
+            <a href="#box-target" id="explore">
+
+                <div class="box ml-5">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div> -->
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!-- <button class="btn my-2 btn-success" type="submit"> Request Invite </button> -->
+
+    <!-- <div class="container-fluid d-none d-md-block">
+            <div class="row">
+                <div id="promotion-area">
+                    <div class="promotions col-md-2 text-center">
+                        <img src="https://img.webnots.com/2017/05/parallax1.jpg" alt="" class="promotion-img">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="promotions text-center col-md-2">
+                        <img src="https://img.webnots.com/2017/05/parallax1.jpg" alt="" class="promotion-img">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div class="promotions text-center col-md-2">
+                        <img src="https://img.webnots.com/2017/05/parallax1.jpg" alt="" class="promotion-img">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
+    <!-- Other Services -->
+
+    <!-- <div class="container-fluid m-0 my-5 p-5">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://img.webnots.com/2015/11/parallax2.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+               <p class="text-grey"><b> Your college, your festival</b></p> -->
+    <!-- <p class="card-text">
+                Dive into the ocean of information regarding fests and events,
+                blend into the vibrant colours of the fests through our Infinite
+                Gallery and leverage your participation. Get insights according
+                to your participation style and type.
+              </p>
+              <a href="#" class="btn btn-success">Know your fest</a>
+            </div> -->
+    <!-- </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://img.webnots.com/2015/11/parallax2.jpg"
+              alt="Card image cap"
+            /> -->
+    <!-- <div class="card-body"> -->
+    <!-- <p class="text-grey"><b> Solving all your travel troubles </b></p> -->
+    <!-- <p class="card-text">
+                Going on a Tour and travelling wouldn't be the same post
+                lockdown exemption, health and safety would be of utmost
+                importance and a constant trail of fear would wipe along. Why
+                take the burden of budgeting and planning on your part in these
+                times,turn to us, we will get you the best travelling experience
+              </p>
+              <a href="#" class="btn btn-success">Plan Now</a>
+            </div> -->
+    <!-- </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://img.webnots.com/2015/11/parallax2.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="text-grey">
+                <b>Know various college events and Participate </b>
+              </p>
+              <p class="card-text"> -->
+    <!-- Your desired event is now just a click away. One stop platform
+                for Symposiums, Conferences, Seminars, workshops and hackathons
+                across colleges all over India
+              </p>
+              <a href="#" class="btn btn-success">Explore </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    <div
+      class="wrapper pt-5"
+      id="box-target"
+      style="background-color: white; width: 1200px;"
+    >
+      <h1 class="text-center mb-5 text-dark display-4">
+        <b>Our Virtual Internship Program </b>
+      </h1>
+
+      <ul class="stage clearfix">
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>It's a Wonderful Life</h1>
+                <span class="year">1946</span>
+                <span class="rating">PG</span>
+                <span class="duration">130 minutes</span>
+              </header>
+              <p>
+                In Bedford Falls, New York on Christmas Eve, George Bailey is
+                deeply troubled. Prayers for his well-being from friends and
+                family reach Heaven. Clarence Odbody, Angel Second Class, is
+                assigned to visit Earth to save George, thereby earning his
+                wings. Franklin and Joseph, the head angels, review George's
+                life with Clarence.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>Vengeance Valley</h1>
+                <span class="year">1951</span>
+                <span class="rating">NR</span>
+                <span class="duration">83 minutes</span>
+              </header>
+              <p>
+                A cattle baron takes in an orphaned boy and raises him, causing
+                his own son to resent the boy. As they get older the resentment
+                festers into hatred, and eventually the real son frames his
+                stepbrother for fathering an illegitimate child that is actually
+                his, seeing it as an opportunity to get his half-brother out of
+                the way so he can have his father's empire all to himself.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>The Gold Rush</h1>
+                <span class="year">1925</span>
+                <span class="rating">NR</span>
+                <span class="duration">95 minutes</span>
+              </header>
+              <p>
+                The Tramp travels to the Yukon to take part in the Klondike Gold
+                Rush. He gets mixed up with some burly characters and falls in
+                love with the beautiful Georgia. He tries to win her heart with
+                his singular charm.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Startups -->
+    <!-- <div class="container-fluid" style="background-color: rgb(27, 23, 23);">
+      <div class="row mt-5 p-5">
+        <div class="col-lg-6 p-1 text-center">
+          <img
+            class="info-img hvr-pop"
+            src="img1.jpg"
+            alt="Generic placeholder image"
+          />
+        </div>
+        <div class="col-lg-6 text-center text-light p-1">
+          <h2 class="mt-0 mb-3">Startups</h2>
+          <p>
+            Showcase Your Product to the audience of relevance <br />
+            Start walking, now is the time <br />
+            You ain't launching start-up. You are writing the initial part of
+            your success story <br />
+
+            <button type="button" class="greencolorbtn">
+              BROADCAST YOUR IDEA NOW
+            </button>
+          </p> -->
+    <!-- <input class="form-control mr-sm-2" type="Enter your Email" id="getStarted" placeholder="Search"
+                    aria-label="Search" style="background:transparent; border: none; 
+                    border-bottom:1px solid red;
+                    box-shadow: none;"> -->
+    <!-- </div>
+      </div>
+    </div> -->
+    <!-- Startup ends -->
+
+    <!-- Internships -->
+    <!-- <div
+      class="container-fluid mb-0"
+      style="background-color: rgb(27, 23, 23);"
+    >
+      <div style="border: 1px solid white;"></div>
+      <div class="row p-5">
+        <div class="col-lg-6 text-center text-light mt-4 p-1">
+          <h2 class="mt-0 mb-3">Internships</h2>
+          <p>
+            <i>
+              <b> चलो, Let’s get you the imperfect internship </b> <br />
+              That best suits you
+            </i>
+            <br />
+            <br />
+
+            Why imperfect? <br />
+            Because Perfect simply means the least learning opportunity <br />
+            But when you land one that suits you <br />
+            It brings you a plethora of opportunities and makes you corporate
+            ready <br />
+          </p>
+          <button type="button" class="greencolorbtn">
+            Apply Now
+          </button>
+        </div>
+        <div class="col-lg-6 p-1 text-center">
+          <img
+            class="info-img hvr-pop"
+            src="https://img.webnots.com/2015/11/parallax2.jpg"
+            alt="Generic placeholder image"
+          />
+        </div>
+      </div>
+    </div> -->
+    <!-- Internships ends -->
+
+    <div style="background-color: black; height: 100px;">
+      <div id="text">
+        <h1 class="display-3">
+          <span style="color: wheat;">No Matter How Hard it is ,</span> Just
+          Keep Going
+        </h1>
+      </div>
+
+      <div class="boxingcard">
+        <div class="glass"></div>
+        <div class="contentinside">
+          <h2 class="display-3" style="font-family: 'Quicksand', sans-serif;">
+            Startups
+          </h2>
+          <br />
+          <br />
+          <p>
+            Showcase Your Product to the audience of relevance <br />
+            Start walking, now is the time <br />
+            You ain't launching start-up. You are writing the initial part of
+            your success story
+
+            <br />
+            <br>
+            <br>
+
+            <button type="button" class="bluecolorbtn">
+              BROADCAST YOUR IDEA NOW
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <div class="boxingcard2">
+        <div class="glass"></div>
+        <div class="contentinside">
+          <h2 class="display-4" style="font-family: 'Quicksand', sans-serif;">
+            Internships
+          </h2>
+          <br />
+          <p
+            style="
+              font-family: 'Montserrat Alternates', sans-serif;
+              font-family: 'Quicksand', sans-serif;
+            "
+          >
+            <i>
+              <b> चलो, Let’s get you the imperfect internship </b>
+              <br />
+              That best suits you
+            </i>
+            <br />
+            <br />
+
+            Why imperfect?
+            <br />
+            Because Perfect simply means the least learning opportunity
+            <br />
+
+            But when you land one that suits you
+            <br />
+            It brings you a plethora of opportunities and makes you corporate
+            ready
+          </p>
+
+          <button type="button" class="yellowcolorbtn">
+            Apply Now
+          </button>
+        </div>
+      </div>
+      <svg
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        width="325"
+        height="325"
+        viewBox="15 0 315 315"
+      >
+        <circle
+          fill="white"
+          cx="172"
+          cy="165"
+          r="150"
+          stroke="rgba(255,255,255,.4)"
+          stroke-width="30"
+        />
+        <ellipse id="mSH" opacity=".2" cx="175" cy="313" rx="110" ry="10" />
+        <g id="B">
+          <g id="UB">
+            <g id="H">
+              <path
+                d="M188.8.2c-9.1-.3-16.2 7.3-16.2 15.4 0 8.9 7.2 13.8 7.2 13.8s1.3 3.8 0 6.9c-2.1 4.8-6.6 11.1-6.6 11.1l17.6 8.9s-3.8-8.4-2.2-13.8c.8-2.9 4.7-3.5 6.9-3.1 3.8 3.7 7.7 5.5 9.1 4.6 1.9-1.2 4.9-18.4 4.5-26.8-.4-8.5-9.5-16.3-20.3-17z"
+              />
+              <g fill="none" stroke="#fff" opacity="0.4">
+                <path d="M191.1.3s4 4.4 4.9 17.9-.9 21-.9 21" />
+                <path
+                  d="M172.6 16.2s8.2 2.1 19.2 2.4c11.5.3 17.4-1.5 17.4-1.5"
+                />
+              </g>
+              <g
+                fill="none"
+                stroke="#fff"
+                opacity="0.7"
+                stroke-linecap="round"
+                stroke-width="3"
+              >
+                <path class="st4" d="M181,7.1c-0.8,0.7-1.6,1.4-2.2,2.3" />
+                <path class="st4" d="M198.6,7.6c-4.1-2.8-9.3-4.3-14-2.6" />
+              </g>
+            </g>
+            <path
+              d="M196.9 83.1c-1.6 8-2.9 14.6-2.9 14.6l-4.9 46.1-21.9-7.7 3.4-11c.7-3.7.9-8.5.4-12.3-4.272-29.697-8.373-41.774-5.7-52.182 2.043-6.93 9.2-17.518 9.2-17.518s3.7 1.4 6.6 2.2c3.5 1.2 8.3 2.9 8.3 2.9s10 21.9 7.5 34.9z"
+            />
+            <path
+              class="FB"
+              d="M167.5 132.7c-9 18.6 6.4 27.6 10.6 27.6 6 0 11.8-9.2 12.3-24.1l-22.9-5.7v2.2z"
+            />
+          </g>
+          <g id="FF">
+            <path
+              d="M169.2 223.345c.1-.21-.4-2.11 1.4-20.466-1.9-15.51-4.6-39.88-1.2-52.86 2.9-12.66 16.7-15.83 19.1-1.588.4 11.183.4 15.51-2 35.66-4.6 23.313-9.7 39.243-9.8 40.09-.1.525-2.2 2.32-4.4 2.002-1.7.104-3.3-2.217-3.1-2.85z"
+            />
+            <g class="F1">
+              <path
+                d="M162.9 307.954s1.2-11.393.3-24.264c-.5-9.284-5.8-30.594-4.7-38.93 6.8-18.777 13.6-23.42 16.4-22.26 1.1.95 1.9 2.322 1.3 4.01-.1.106-3.8 23.632-6 40.3-2.3 18.04.7 41.144.7 41.144h-8z"
+              />
+              <g class="F2">
+                <path
+                  d="M192.2 316.183s-25.4-16.985-28.8-14.242c-1.4 6.65-11.8 19.1-2.9 22.9 3.3 1.27 7-1.16 8.3-1.37 6.3-1.16 19.1 1.48 20.2 1.48 2.8 0 5.1-1.687 5.1-4.64 0-1.69-.8-3.27-1.9-4.116z"
+                />
+                <path
+                  class="F3"
+                  d="M191.7 315.867s-1.5-.528-2.3-.528c-2.6 0-4.6 2.11-4.6 4.85 0 2.42 1.7 4.53 4.1 4.75 0 0 17 .95 17.3-2.64.3-3.38-7.5-2.85-14.5-6.44z"
+                />
+              </g>
+            </g>
+          </g>
+          <path
+            fill="#333"
+            d="M191.1 49.9l-18.9-3.7c-.9-.1-1.2-1.1-.6-1.6l1.9-2.3c.2-.3.7-.4 1.1-.3l16.7 5.7c-.1-.1-.2 2.2-.2 2.2z"
+          />
+          <g id="HF">
+            <path
+              d="M179.9 111.275c.5-1.88 7.2-21.42 6.3-36.154 4.4-10.76 2-18.49.7-21.42-3.1-7-13.2-5.74-14.6 4.29-.5 3.66-1.5 10.87 2 19.33-2.6 17.24.7 31.87.9 33.96s4.1 1.988 4.7 0"
+            />
+            <g class="H1">
+              <path
+                d="M185 122.56c-.5-3.135-4.4-17.137-8.8-16.3-2.1.417-3.3 12.016-3.3 12.016 1.5 11.39 6.533 25.093 10.333 35.96l4.567-.852c.2 0-2.5-14.628-2.8-30.824z"
+              />
+              <path
+                class="H2"
+                d="M186.87 152.17c-1 .11-2.9.774-4 .885-.6.11-2 4.318-2.8 7.308-.4 1.44-1 8.083-1 9.633l.4 6.312s1.5 5.315 1.8 5.98c.5 1.55 1.4.664 1.4.664s1.3 3.22 1.4 3.55c.3.67.8.89 1.3.78 2.3-.44-.1-5.09-.9-7.192.2-1.44-.3-4.872-.3-4.872s1 6.2 1.1 6.756c.1 1.77 2.1 4.87 2.4 5.87.1.995 1.6 1.327 2.4.44 1.7-1.88-1.8-6.53-1.8-6.53.4-2.216-.7-7.53-.7-7.53s1.5 9.52 2.2 11.736c.1.333 1.1 4.984 1.3 5.205.3.554 1 .554 1.5.333 2.2-1.33.7-6.866.2-7.862-.1-.33-.1-4.32-.7-7.75.15-4.882-.227-5.843-.8-7.64s.9 3.544 1.5 4.54c.04 4.22 2.277 7.61 4.355 6.67.8-.663.19-5.314-.555-8.552l-2.4-7.525c.2.33-6.2-11.3-7.3-11.19v-.028z"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Promotions -->
+    <!-- <div class="container-fluid d-none d-md-block mt-0">
+      <div class="row">
+        <div id="promotion-area">
+          <div class="promotions col-md-2 text-center">
+            <img
+              src="https://img.webnots.com/2017/05/parallax1.jpg"
+              alt=""
+              class="promotion-img"
+            />
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="promotions text-center col-md-2">
+            <img
+              src="https://img.webnots.com/2017/05/parallax1.jpg"
+              alt=""
+              class="promotion-img"
+            />
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="promotions text-center col-md-2">
+            <img
+              src="https://img.webnots.com/2017/05/parallax1.jpg"
+              alt=""
+              class="promotion-img"
+            />
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="promotions text-center col-md-2">
+            <img
+              src="https://img.webnots.com/2017/05/parallax1.jpg"
+              alt=""
+              class="promotion-img"
+            />
+            <p>Lorem, ipsum.</p>
+          </div>
+          <div class="promotions text-center col-md-2">
+            <img
+              src="https://img.webnots.com/2017/05/parallax1.jpg"
+              alt=""
+              class="promotion-img"
+            />
+            <p>Lorem, ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Promotion ends -->
+
+    <!-- Join the Community -->
+    <div style="background-color: #e0e0d1; margin-top: 900px;margin-bottom: 100px;">
+      <div style="margin-top: 100px;">
+        <div class="carded">
+          <div class="imageBox">
+            <img
+              src="CFL-grow-bulbs.jpg"
+              alt="IMAGE"
+              style="height: 400px; width: 300px;"
+            />
+          </div>
+          <div class="details">
+            <p>
+              Connect with like-minds and get a targeted audience to showcase
+              all your endeavours and get people along on your journey
+            </p>
+            <br />
+            <br />
+            <br />
+            <button class="greencolorbtn">Join the Community</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-fluid join pt-1 pb-1 mb-0">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-6 p-1 text-center mt- mb-0">
+          <img
+            class="info-img"
+            src="https://img.webnots.com/2015/11/parallax2.jpg"
+            alt="Generic placeholder image"
+          />
+        </div>
+        <div class="col-lg-6 text-center text-white">
+          <p class="p-4 text-left">
+            Connect with like-minds and get a targeted audience to showcase all
+            your endeavours and get people along on your journey
+          </p>
+          <button class="greencolorbtn">
+            Join the Community
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Community section end -->
+    <h2
+      class="m-5 text-center text-uppercase display-3"
+      style="color: white; font-family: 'Quicksand', sans-serif;"
+    >
+      Our other Services
+    </h2>
+    <div id="main">
+      <div class="cont">
+        <div class="carding">
+          <div class="imgbx">
+            <img src="img1.jpg" alt="Image" />
+          </div>
+          <div class="content">
+            <p>
+              Dive into the ocean of information regarding fests and events,
+              blend into the vibrant colours of the fests through our Infinite
+              Gallery and leverage your participation. Get insights according to
+              your participation style and type.
+            </p>
+            <button class="redcolorbtn">Know your fest</button>
+          </div>
+        </div>
+        <div class="carding">
+          <div class="imgbx">
+            <img src="img1.jpg" alt="Image" />
+          </div>
+          <div class="content">
+            <p>
+              Going on a Tour and travelling wouldn't be the same post lockdown
+              exemption, health and safety would be of utmost importance and a
+              constant trail of fear would wipe along. Why take the burden of
+              budgeting and planning on your part in these times,turn to us, we
+              will get you the best travelling experience
+            </p>
+            <button class="bluecolorbtn">Plan Now</button>
+          </div>
+        </div>
+        <div class="carding">
+          <div class="imgbx">
+            <img src="img1.jpg" alt="Image" />
+          </div>
+          <div class="content">
+            <p>
+              Your desired event is now just a click away. One stop platform for
+              Symposiums, Conferences, Seminars, workshops and hackathons across
+              colleges all over India
+            </p>
+            <button class="yellowcolorbtn">Explore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="wrapper pt-5" id="box-target">
+      <h1 class="text-center mb-5 text-dark">
+        <b>Our Virtual Internship Program </b>
+      </h1>
+
+      <ul class="stage clearfix">
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>It's a Wonderful Life</h1>
+                <span class="year">1946</span>
+                <span class="rating">PG</span>
+                <span class="duration">130 minutes</span>
+              </header>
+              <p>
+                In Bedford Falls, New York on Christmas Eve, George Bailey is
+                deeply troubled. Prayers for his well-being from friends and
+                family reach Heaven. Clarence Odbody, Angel Second Class, is
+                assigned to visit Earth to save George, thereby earning his
+                wings. Franklin and Joseph, the head angels, review George's
+                life with Clarence.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>Vengeance Valley</h1>
+                <span class="year">1951</span>
+                <span class="rating">NR</span>
+                <span class="duration">83 minutes</span>
+              </header>
+              <p>
+                A cattle baron takes in an orphaned boy and raises him, causing
+                his own son to resent the boy. As they get older the resentment
+                festers into hatred, and eventually the real son frames his
+                stepbrother for fathering an illegitimate child that is actually
+                his, seeing it as an opportunity to get his half-brother out of
+                the way so he can have his father's empire all to himself.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="scene">
+          <div class="movie" onclick="return true">
+            <div class="poster"></div>
+            <div class="info">
+              <header>
+                <h1>The Gold Rush</h1>
+                <span class="year">1925</span>
+                <span class="rating">NR</span>
+                <span class="duration">95 minutes</span>
+              </header>
+              <p>
+                The Tramp travels to the Yukon to take part in the Klondike Gold
+                Rush. He gets mixed up with some burly characters and falls in
+                love with the beautiful Georgia. He tries to win her heart with
+                his singular charm.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div> -->
+    <!-- /wrapper -->
+
+    <!-- /container -->
+
+    <!-- <div class="wraper">
+        <div class="row">
+            <div class=" col white-font">
+                <h1>Trending
+                    <a href="https://www.clipart.email/download/6478290.html" title="Image from clipart.email"><img
+                            src="https://cdn.clipart.email/047d28eb456f02f5fe1789c20a64c139_pattern-background-clipart-market-text-orange-transparent-_900-520.jpeg"
+                            width="50" alt="Clipart Logo Stock Market" /></a>
+                    <button class="btn btn-sm btn-warning float">See More</button>
+                </h1>
+                <p>Latest news about Startups,Internships,College Events</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="buttonClass">
+        <button class="btn btn-warning btn-lg buttonBack inline" onclick="PlusBlock(-1)">
+            <</button> <button class="btn btn-warning btn-lg buttonNext float inline" onclick="PlusBlock(1)">>
+        </button>
+    </div>
+    <div class="row m-0">
+        <div class="col trend">
+            <img src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3> Surajmal College </h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+        </div>
+
+
+
+        <div class="col trend">
+            <img src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3>Surajmal College
+            </h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+        </div>
+
+        <div class="col trend">
+            <img src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3>Sjmal College</h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+        </div>
+
+
+        <div class="col trend">
+            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3>Sural College</h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+
+
+        </div>
+
+        <div class="col trend">
+            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3>dav College</h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+
+
+        </div>
+
+        <div class="col trend">
+            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
+            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
+            <h3>hans College</h3>
+            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician . We promise you the quality. It will be the best choice to meet with the people with
+                the
+                same
+                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
+            </p>
+
+
+        </div>
+
+
+
+    </div> -->
+
+    <!-- <script type="text/javascript" src="divscript"></script> -->
+    <!-- <hr> -->
+
+    <!-- Getting started -->
+    <!-- 
+    <div class="wraper-grey mt-0">
+        <div class="row">
+            <div class=" col white-font">
+                <h1 align="left">Getting Started
+                </h1>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col white-font">
+                is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician .
+                We promise you the quality. It will be the best choice to meet with the people with the same
+                passion
+                and
+                dedication like you. Come to make your Sunday a beautiful and memorable one.is an open mic event
+                for
+                singers and musicians .The best platform for New and Upcoming Youth Musician . We promise you
+                the
+                quality. It will be the best choice to meet with the people with the same passion and dedication
+                like
+                you. Come to make your Sunday a beautiful and memorable one
+            </div>
+            <div class="col white-bg">
+                is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
+                Musician .
+                We promise you the quality. It will be the best choice to meet with the people with the same
+                passion
+                and
+                dedication like you. Come to make your Sunday a beautiful and memorable one.is an open mic event
+                for
+                singers and musicians .The best platform for New and Upcoming Youth Musician . We promise you
+                the
+                quality. It will be the best choice to meet with the people with the same passion and dedication
+                like
+                you. Come to make your Sunday a beautiful and memorable one
+            </div>
+        </div>
+
+    </div> -->
+    <!-- Getting Started ends -->
+
+    <!-- <div class="row wraper">
+      <div class="col">
+        <h1 align="center">'Testimonials'</h1>
+      </div>
+    </div>
+    <div class="testimonContainer">
+      <div class="row pb-5 mb-5">
+        <div class="col testimon topMargin">
+          Come to make your Sunday a beautiful and memorable one Come to make
+          your Sunday a beautiful and memorable one
+        </div>
+        <div class="col testimon">
+          Come to make your Sunday a beautiful and memorable one Come to make
+          your Sunday a beautiful and memorable one
+        </div>
+        <div class="col testimon topMargin">
+          Come to make your Sunday a beautiful and memorable one Come to make
+          your Sunday a beautiful and memorable one
+        </div>
+      </div>
+    </div> -->
+    <div class="testimonials">
+      <div class="inner">
+        <h1>Testimonials</h1>
+        <div class="border"></div>
+
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="p1.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <p>
+                Come to make your Sunday a beautiful and memorable one Come to
+                make your Sunday a beautiful and memorable one
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="p2.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p>
+                Come to make your Sunday a beautiful and memorable one Come to
+                make your Sunday a beautiful and memorable one
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="p3.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p>
+                Come to make your Sunday a beautiful and memorable one Come to
+                make your Sunday a beautiful and memorable one
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- </div>
+</div> -->
+
+    <!--=============================Footer================================-->
+    <footer class="webintern-footer" style="background: black;">
+      <div class="webintern-footer-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <a class="webintern-footer-logo" href="#">
+                <img
+                  class="img-responsive"
+                  src="https://www.freelogodesign.org/img/logo-ex-4.png"
+                  style="width: 100px;"
+                  alt=""
+                />
+              </a>
+              <div class="simple-text dark padding-sm">
+                <p>
+                  Totam rem aperiam, eaque ipsa quae ab illo inv ent ore
+                  veritatis et quasi architecto beatae vitae dict eaque ipsa
+                  quae ab.
+                </p>
+              </div>
+              <div class="empty-space xs-25 sm-25"></div>
+            </div>
+
+            <div class="col-sm-6 col-md-2 footer-2">
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5">
+                <small>Quick Links</small>
+              </h4>
+              <ul class="webintern-footer-list">
+                <li><a href="#">Internships</a></li>
+                <li><a href="#">Startups</a></li>
+                <li><a href="#"> Community </a></li>
+                <li><a href="#"> Blog </a></li>
+                <li><a href="#"> FAQ's </a></li>
+              </ul>
+              <div class="empty-space xs-25 sm-25"></div>
+            </div>
+            <div class="col-sm-6 col-md-3 footer-3">
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5"><small> About </small></h4>
+              <ul class="webintern-footer-list">
+                <li><a href="#">Who are we </a></li>
+                <li><a href="#">Team Quantel</a></li>
+                <li><a href="#">Advertise With Us</a></li>
+              </ul>
+              <div class="empty-space xs-25"></div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-sm-6">
+              <div class="marg-sm-b30"></div>
+              <!-- webintern_footer_title -->
+              <h4 class="webintern_footer_title h5">
+                <small>Contact Us</small>
+              </h4>
+              <div class="empty-space marg-lg-b20"></div>
+              <!--
+        <div class="simple-text last dark ">
+        <p>Get latest updates and offers.</p>
+        </div>
+        -->
+              <div class="empty-space marg-lg-b15"></div>
+              <!-- TT-SUBSCRIBE -->
+              <form>
+                <div class="tt-subscribe">
+                  <input
+                    type="text"
+                    class="my-2"
+                    required=""
+                    placeholder="Enter your name"
+                  />
+
+                  <input
+                    type="text"
+                    class="my-2"
+                    required=""
+                    placeholder="Enter your email"
+                  />
+                  <!--<input type="text" class="my-2" required=""  placeholder="Query/Feedback">-->
+                  <textarea
+                    name=""
+                    id=""
+                    cols="47"
+                    class="my-2"
+                    rows="3"
+                    placeholder="Query/Feedback"
+                  ></textarea>
+                  <!--<div class="tt-subscribe-submit">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        <input type="submit" value="">
+        </div>-->
+
+                  <button class="bluecolorbtn">Submit</button>
+                </div>
+              </form>
+              <div class="empty-space marg-lg-b30"></div>
+              <!-- TT-SOCAIL -->
+              <ul class="tt-socail">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tt-copy">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="tt-copy-left">
+                Copyright © company 2020. Quantel Tech Pvt. Ltd.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="tt-copy-right">
+                Made with <i class="fas fa-heart"></i>&nbsp; in India
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============================Footer End================================-->
+
+    <!-- <div class="parallax-window" data-parallax="scroll" z-index="1"
+        data-image-src="https://img.webnots.com/2015/11/parallax2.jpg"></div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <script type="text/javascript" src="./node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    
+    <script type="text/javascript" src="./node_modules/fullpage.js/dist/fullpage.min.js"></script> -->
+  </body>
+</html>

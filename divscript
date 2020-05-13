@@ -1,0 +1,22 @@
+var block=0;
+var j=4;
+blockshow(block,j);
+function blockshow(n,j){
+	var blocks=document.getElementsByClassName("trend");
+	
+	for(i=0;i<blocks.length;i++){
+		blocks[i].style.display="none";
+	}
+	for(i=n;i<j;i++){
+		blocks[i].style.display="block";
+	}
+
+}
+
+function PlusBlock(n){
+	
+	block+=n;
+	j+=n;
+	blockshow(block,j);
+}
+
