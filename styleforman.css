@@ -2,8 +2,8 @@
 .boxingcard {
   position:relative;
   top: 50px;
-  left: 50px;
-  width: 330px;
+  left: 750px;
+  width: 390px;
   height: 550px;
   /* display: flex;
   justify-content: center;
@@ -37,10 +37,10 @@
   filter: blur(40px);
 }
 
-.boxingcard:before,
+/* .boxingcard:before,
 .boxingcard:after {
   background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
-}
+} */
 
 .boxingcard .glass {
   position: absolute;
@@ -61,21 +61,22 @@
 
 
 
-.boxingcard2 {
-  position: relative;
-  top: -530px;
-  left: 900px;
+ .boxingcard2 {
+   position: relative;
+   top: 600px;
+  left: -250px;
   width: 330px;
   height: 550px; 
-  /* display: flex;
+   display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 font-size: 17px;
   background: #060c21;
   margin: 40px;
-}
+  
+} 
 
-.boxingcard2:before {
+ /* .boxingcard2:before {
   content: "";
   position: absolute;
   top: -2px;
@@ -84,9 +85,9 @@ font-size: 17px;
   bottom: -2px;
   background: #fff;
   z-index: -1;
-}
+}  */
 
-.boxingcard2:after {
+ /* .boxingcard2:after {
   content: "";
   position: absolute;
   top: -2px;
@@ -96,13 +97,13 @@ font-size: 17px;
   background: #fff;
   z-index: -2;
   filter: blur(40px);
-}
+}  */
 
-.boxingcard2:before,
+ /* .boxingcard2:before,
 .boxingcard2:after {
   background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
-}
-.boxingcard2 .glass {
+} */
+/* .boxingcard2 .glass {
   position: absolute;
   top: 0;
   left: 0;
@@ -111,17 +112,17 @@ font-size: 17px;
   display: block;
   background: rgba(255, 255, 255, 0.1);
   pointer-events: none;
-}
+}  */
 
 .boxingcard2 .contentinside {
   padding: 20px;
-  color: #fff;
+  color: black;
   text-align: center;
-}
+} 
 
 .dialog{
   position: absolute;
-  left:60%;
+  left:40%;
   top:200px;
   color: white;
   margin-left: 100px;
@@ -131,8 +132,8 @@ svg {
   opacity: 0;
   overflow: visible;
   position: relative;
-  left:680px;
-  top:-820px;
+  left:380px;
+  top:-320px;
   transform: translate(-50%, -50%);
 }
 
