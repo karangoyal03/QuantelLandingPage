@@ -43,14 +43,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleforman.css" />
     <script src="scriptformovingman.js"></script>
-    <style>
-    
-    </style>
   </head>
 
   <body style="margin: 0px; padding: 0px;">
@@ -763,8 +761,6 @@
             </div>
         </div> -->
 
-
-
     <div class="wrapper pt-5" id="box-target" style="background-color: white;">
       <h1 class="text-center mb-5 text-dark display-4">
         <b>Our Virtual Internship Program </b>
@@ -840,23 +836,31 @@
 
     <!-- Internships ends -->
 
-    <div style="background-color: black; height: 100px;">
-      <div id="text">
-        <h1 class="display-3">
-          <span style="color: wheat;">No Matter How Hard it is ,</span> Just
-          Keep Going
-        </h1>
-      </div>
+    <div>
+      <div id="text"></div>
 
       <div class="boxingcard">
         <div class="glass"></div>
         <div class="contentinside">
-          <h2 class="display-2" style="font-family: 'Quicksand', sans-serif;">
+          <h2
+            class="display-3"
+            style="font-family: 'Quicksand', sans-serif;"
+            data-aos="slide-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          >
             Startups
           </h2>
+
           <br />
-          <br />
-          <p style="font-family: Eina01,sans-serif;">
+          <p
+            style="font-family: Eina01, sans-serif;"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="1000"
+            data-aos-duration="2500"
+          >
             Showcase Your Product to the audience of relevance <br />
             Start walking, now is the time <br />
             You ain't launching start-up. You are writing the initial part of
@@ -873,7 +877,6 @@
         </div>
       </div>
 
-     
       <svg
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
@@ -962,21 +965,24 @@
       </svg>
     </div>
 
-
     <div class="container" style="margin-top: 200px;">
-
-<div class="boxingcard2" style="display: inline;">
+      <div class="boxingcard2" style="display: inline;">
         <div class="glass"></div>
         <div class="contentinside">
           <h2 class="display-4" style="font-family: 'Quicksand', sans-serif;">
             Internships
           </h2>
+
           <br />
           <p
             style="
               font-family: 'Montserrat Alternates', sans-serif;
               font-family: 'Quicksand', sans-serif;
             "
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
           >
             <i>
               <b> चलो, Let’s get you the imperfect internship </b>
@@ -996,6 +1002,7 @@
             It brings you a plethora of opportunities and makes you corporate
             ready
           </p>
+          <br />
 
           <button type="button" class="btn btn-outline-warning">
             Apply Now
@@ -1003,25 +1010,28 @@
         </div>
       </div>
       <video
-     
-      autoplay
-      loop
-      style="width: 600px; height: 600px;margin-left: 700px;margin-top: 100px;"
-    >
-      <source
-        src="https://d33wubrfki0l68.cloudfront.net/803f3b79773ec6b4b165f22dda756e9bfc08db48/34934/images/home/integrations.mp4"
-        type="video/mp4"
-      />
-    </video>
+        autoplay
+        loop
+        style="
+          width: 600px;
+          height: 600px;
+          margin-left: 700px;
+          position: relative;
+          top: -840px;
+        "
+      >
+        <source
+          src="https://d33wubrfki0l68.cloudfront.net/803f3b79773ec6b4b165f22dda756e9bfc08db48/34934/images/home/integrations.mp4"
+          type="video/mp4"
+        />
+      </video>
     </div>
-
-  
 
     <!-- Join the Community -->
     <div
       style="
         background-color: #e0e0d1;
-        margin-top: 300px;
+        margin-top: -650px;
         margin-bottom: 100px;
       "
     >
@@ -1047,12 +1057,14 @@
         </div>
       </div>
     </div>
-    
 
     <!-- Community section end -->
     <h2
-      class="m-5 text-center text-uppercase display-3"
+      class="m-5 text-center text-uppercase display-4"
       style="color: black; font-family: 'Quicksand', sans-serif;"
+      data-aos="fade-right"
+      data-aos-offset="100"
+      data-aos-duration="2000"
     >
       Our other Services
     </h2>
@@ -1103,191 +1115,16 @@
       </div>
     </div>
 
-    
-    
-    <!-- /wrapper -->
-
-    <!-- /container -->
-
-    <!-- <div class="wraper">
-        <div class="row">
-            <div class=" col white-font">
-                <h1>Trending
-                    <a href="https://www.clipart.email/download/6478290.html" title="Image from clipart.email"><img
-                            src="https://cdn.clipart.email/047d28eb456f02f5fe1789c20a64c139_pattern-background-clipart-market-text-orange-transparent-_900-520.jpeg"
-                            width="50" alt="Clipart Logo Stock Market" /></a>
-                    <button class="btn btn-sm btn-warning float">See More</button>
-                </h1>
-                <p>Latest news about Startups,Internships,College Events</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="buttonClass">
-        <button class="btn btn-warning btn-lg buttonBack inline" onclick="PlusBlock(-1)">
-            <</button> <button class="btn btn-warning btn-lg buttonNext float inline" onclick="PlusBlock(1)">>
-        </button>
-    </div>
-    <div class="row m-0">
-        <div class="col trend">
-            <img src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3> Surajmal College </h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-        </div>
-
-
-
-        <div class="col trend">
-            <img src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3>Surajmal College
-            </h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-        </div>
-
-        <div class="col trend">
-            <img src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3>Sjmal College</h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-        </div>
-
-
-        <div class="col trend">
-            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3>Sural College</h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-
-
-        </div>
-
-        <div class="col trend">
-            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3>dav College</h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-
-
-        </div>
-
-        <div class="col trend">
-            <img class="disPic" src="pics/pic1.jpg" width="100%" height="250px">
-            <span class="badgePosition badge badge-warning m-2 float"> Date: 10/10/2020</span>
-            <h3>hans College</h3>
-            <p>This is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician . We promise you the quality. It will be the best choice to meet with the people with
-                the
-                same
-                passion and dedication like you. Come to make your Sunday a beautiful and memorable one.
-            </p>
-
-
-        </div>
-
-
-
-    </div> -->
-
-    <!-- <script type="text/javascript" src="divscript"></script> -->
-    <!-- <hr> -->
-
-    <!-- Getting started -->
-    <!-- 
-    <div class="wraper-grey mt-0">
-        <div class="row">
-            <div class=" col white-font">
-                <h1 align="left">Getting Started
-                </h1>
-            </div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col white-font">
-                is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician .
-                We promise you the quality. It will be the best choice to meet with the people with the same
-                passion
-                and
-                dedication like you. Come to make your Sunday a beautiful and memorable one.is an open mic event
-                for
-                singers and musicians .The best platform for New and Upcoming Youth Musician . We promise you
-                the
-                quality. It will be the best choice to meet with the people with the same passion and dedication
-                like
-                you. Come to make your Sunday a beautiful and memorable one
-            </div>
-            <div class="col white-bg">
-                is an open mic event for singers and musicians .The best platform for New and Upcoming Youth
-                Musician .
-                We promise you the quality. It will be the best choice to meet with the people with the same
-                passion
-                and
-                dedication like you. Come to make your Sunday a beautiful and memorable one.is an open mic event
-                for
-                singers and musicians .The best platform for New and Upcoming Youth Musician . We promise you
-                the
-                quality. It will be the best choice to meet with the people with the same passion and dedication
-                like
-                you. Come to make your Sunday a beautiful and memorable one
-            </div>
-        </div>
-
-    </div> -->
-    <!-- Getting Started ends -->
-
-    <!-- <div class="row wraper">
-      <div class="col">
-        <h1 align="center">'Testimonials'</h1>
-      </div>
-    </div>
-    <div class="testimonContainer">
-      <div class="row pb-5 mb-5">
-        <div class="col testimon topMargin">
-          Come to make your Sunday a beautiful and memorable one Come to make
-          your Sunday a beautiful and memorable one
-        </div>
-        <div class="col testimon">
-          Come to make your Sunday a beautiful and memorable one Come to make
-          your Sunday a beautiful and memorable one
-        </div>
-        <div class="col testimon topMargin">
-          Come to make your Sunday a beautiful and memorable one Come to make
-          your Sunday a beautiful and memorable one
-        </div>
-      </div>
-    </div> -->
-    <div class="testimonials" style="margin-top: 200px; font-weight: bolder;">
+    <!-- testimonials -->
+    <div
+      class="testimonials"
+      style="margin-top: 150px; font-weight: bolder;"
+      data-aos="zoom-out-up"
+      data-aos-duration="2000"
+    >
       <div class="inner">
         <h1
-          class="center display-1"
+          class="center display-3"
           style="font-family: Mark Pro, Eina01, sans-serif;"
         >
           What others are saying
@@ -1355,9 +1192,6 @@
       </div>
     </div>
 
-    <!-- </div>
-</div> -->
-
     <div
       class="blue negative section newsletter-signup vertical"
       style="
@@ -1365,22 +1199,25 @@
           linear-gradient(95.24deg, #4966f7 0, #8253ff 122.55%);
         padding: 0 calc(18vw - 10rem);
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         height: 600px;
         margin-top: 200px;
       "
     >
       <div class="container-inner">
         <div class="text">
+          <br />
+          <br />
           <h2
-            class="display-1"
+            class="display-3"
             style="
               font-family: Mark Pro, Eina01, sans-serif;
               font-weight: bolder;
               color: white;
             "
           >
-            Ready to see what we’re building?
+            Ready to see what we’re <br />
+            building?
           </h2>
           <br />
           <br />
@@ -1423,6 +1260,8 @@
               </button>
             </div>
             <p class="legal-note">
+              <br />
+
               <span style="opacity: 0.6; color: white;"
                 >We care about protecting your data. Here’s our </span
               ><a href="/privacy-policy" style="color: aliceblue;"
@@ -1610,5 +1449,12 @@
     <!-- <script type="text/javascript" src="./node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
     
     <script type="text/javascript" src="./node_modules/fullpage.js/dist/fullpage.min.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 50,
+        delay: 1500,
+      });
+    </script>
   </body>
 </html>
