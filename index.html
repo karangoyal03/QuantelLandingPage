@@ -10,6 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <script src="js/modernizr.custom.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -48,7 +52,9 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleforman.css" />
+   
     <script src="scriptformovingman.js"></script>
+     <script src="community.js"></script>
   </head>
 
   <body style="margin: 0px; padding: 0px;">
@@ -1069,6 +1075,8 @@
             <br />
             <button
               class="greencolorbtn"
+              data-toggle="modal"
+              data-target="#modalSubscriptionForm"
             >
               Join the Community
             </button>
@@ -1152,7 +1160,7 @@
       </div>
     </div>
 
-    <!-- testimonials -->
+    <!-- testimonials  What others are saying start -->
     <div
       class="testimonials"
       style="margin-top: 150px; font-weight: bolder;"
@@ -1228,6 +1236,10 @@
         </div>
       </div>
     </div>
+
+    <!-- testimonials  What others are saying end-->
+
+    <!-- button form on every click start (yellow color form) -->
     <div
       class="modal fade"
       id="modalLoginForm"
@@ -1235,15 +1247,14 @@
       role="dialog"
       aria-labelledby="myModalLabel"
       aria-hidden="true"
-      
     >
-      <div class="modal-dialog" role="document" >
-        <div class="modal-content" style="background-color: #FCF4A3">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
           <div
             class="modal-header text-center"
             style="
-              background-color: #ffd300;
-              font-family: Quicksand, Arial, Helvetica, sans-serif;
+              background-color: #f3d023;
+              font-family: 'Montserrat', sans-serif;
             "
           >
             <h4 class="modal-title w-100 font-weight-bold">GET EARLY ACCESS</h4>
@@ -1256,8 +1267,8 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body mx-3" >
-            <div class="md-form mb-5" >
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
               <i class="fas fa-user prefix grey-text"></i>
               <input
                 type="text"
@@ -1265,11 +1276,6 @@
                 placeholder="Your Name"
                 class="form-control validate"
               />
-              <!-- <label
-                data-error="wrong"
-                data-success="right"
-                for="defaultForm-name"
-                >Your Name</label >-->
             </div>
             <div class="md-form mb-5">
               <i class="fas fa-envelope grey-text"></i>
@@ -1279,12 +1285,6 @@
                 placeholder="Your Email"
                 class="form-control validate"
               />
-              <!-- <label
-                data-error="wrong"
-                data-success="right"
-                for="defaultForm-email"
-                >Your email</label
-              > -->
             </div>
             <div class="md-form mb-5">
               <i class="fas fa-graduation-cap grey-text"></i>
@@ -1294,12 +1294,6 @@
                 placeholder="College Name"
                 class="form-control validate"
               />
-              <!-- <label
-                data-error="wrong"
-                data-success="right"
-                for="defaultForm-college"
-                >Your College Name</label
-              > -->
             </div>
             <div class="md-form mb-5">
               <i class="fas fa-mobile grey-text"></i>
@@ -1309,12 +1303,6 @@
                 placeholder=" Phone number"
                 class="form-control validate"
               />
-              <!-- <label
-                data-error="wrong"
-                data-success="right"
-                for="defaultForm-phone"
-                >Your Contact No.</label
-              > -->
             </div>
           </div>
           <div class="modal-footer d-flex justify-content-center">
@@ -1323,17 +1311,91 @@
         </div>
       </div>
     </div>
+    <!-- button form on every click end (yellow color form) -->
 
-    <!-- <div class="text-center">
-      <a
-        href=""
-        class="btn btn-default btn-rounded mb-4"
-        data-toggle="modal"
-        data-target="#modalLoginForm"
-        >Launch Modal Login Form</a
-      >
-    </div> -->
+    <!-- community on click form html  start-->
+    <div
+      class="modal fade"
+      id="modalSubscriptionForm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bolder">
+              Join Our Whatsapp Community
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <h3>
+                In 1 st year of college&nbsp;&nbsp;
+                <button
+                  class="btn btn-outline-success"
+                  id="year1btn"
+                  
+                >
+                  
+                </button>
+              </h3>
 
+              <div >
+                <a id="year1link" style="display: none;color: #8253ff;" href="https://chat.whatsapp.com/Icn80MeMw3c7xzNAHsg8Fos">Join our group</a>
+              </div>
+            </div>
+
+            <div class="md-form mb-5">
+              <h3>
+                In 2 nd year of college&nbsp;&nbsp;
+                <button
+                  class="btn btn-outline-success"
+                  id="year2btn"
+                  
+                >
+                  
+                </button>
+              </h3>
+
+              <div >
+                <a id="year2link" style="display: none;color: #8253ff;" href="https://chat.whatsapp.com/FZLWxK1d8mx3nZwE53vwwv">Join our group</a>
+              </div>
+            </div>
+            <div class="md-form mb-5">
+              <h3>
+                In 3 rd year of college&nbsp;&nbsp;
+                <button
+                  class="btn btn-outline-success"
+                  id="year3btn"
+                  
+                >
+                 
+                </button>
+              </h3>
+
+              <div >
+                <a id="year3link" style="display: none;color: #8253ff;" href="https://chat.whatsapp.com/K0xAJUCAv2W5v7e927g7iu">Join our group</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- community on click form html end-->
+
+    <!-- blue portion at the bottom  start-->
     <div
       class="blue negative section newsletter-signup vertical"
       style="
@@ -1415,6 +1477,8 @@
       </div>
     </div>
 
+    <!-- blue portion at the bottom  end-->
+
     <!--=============================Footer================================-->
     <footer
       class="webintern-footer"
@@ -1481,7 +1545,7 @@
               <div class="empty-space marg-lg-b15"></div>
               <!-- TT-SUBSCRIBE -->
               <form>
-                <div class="tt-subscribe" >
+                <div class="tt-subscribe">
                   <input
                     type="text"
                     class="my-2"
@@ -1596,6 +1660,7 @@
     <script type="text/javascript" src="./node_modules/fullpage.js/dist/fullpage.min.js"></script> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+    
       AOS.init({
         offset: 50,
         delay: 1500,
