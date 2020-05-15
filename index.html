@@ -129,7 +129,12 @@
           </li>
         </ul>
         <form class="form-inline p-1">
-          <button class="btn btn-outline-danger" type="button">
+          <button
+            class="btn btn-outline-danger"
+            type="button"
+            data-toggle="modal"
+            data-target="#modalLoginForm"
+          >
             Request Invite
           </button>
         </form>
@@ -870,7 +875,12 @@
             <br />
             <br />
 
-            <button type="button" class="btn btn-outline-primary">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-toggle="modal"
+              data-target="#modalLoginForm"
+            >
               BROADCAST YOUR IDEA NOW
             </button>
           </p>
@@ -1004,7 +1014,12 @@
           </p>
           <br />
 
-          <button type="button" class="btn btn-outline-warning">
+          <button
+            type="button"
+            class="btn btn-outline-warning"
+            data-toggle="modal"
+            data-target="#modalLoginForm"
+          >
             Apply Now
           </button>
         </div>
@@ -1052,7 +1067,11 @@
             <br />
             <br />
             <br />
-            <button class="greencolorbtn">Join the Community</button>
+            <button
+              class="greencolorbtn"
+            >
+              Join the Community
+            </button>
           </div>
         </div>
       </div>
@@ -1081,7 +1100,13 @@
               Gallery and leverage your participation. Get insights according to
               your participation style and type.
             </p>
-            <button class="btn btn-outline-danger">Know your fest</button>
+            <button
+              class="btn btn-outline-danger"
+              data-toggle="modal"
+              data-target="#modalLoginForm"
+            >
+              Know your fest
+            </button>
           </div>
         </div>
         <div class="carding">
@@ -1096,7 +1121,13 @@
               budgeting and planning on your part in these times,turn to us, we
               will get you the best travelling experience
             </p>
-            <button class="btn btn-outline-primary">Plan Now</button>
+            <button
+              class="btn btn-outline-primary"
+              data-toggle="modal"
+              data-target="#modalLoginForm"
+            >
+              Plan Now
+            </button>
           </div>
         </div>
         <div class="carding">
@@ -1109,7 +1140,13 @@
               Symposiums, Conferences, Seminars, workshops and hackathons across
               colleges all over India
             </p>
-            <button class="btn btn-outline-warning">Explore</button>
+            <button
+              class="btn btn-outline-warning"
+              data-toggle="modal"
+              data-target="#modalLoginForm"
+            >
+              Explore
+            </button>
           </div>
         </div>
       </div>
@@ -1191,6 +1228,111 @@
         </div>
       </div>
     </div>
+    <div
+      class="modal fade"
+      id="modalLoginForm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+      
+    >
+      <div class="modal-dialog" role="document" >
+        <div class="modal-content" style="background-color: #FCF4A3">
+          <div
+            class="modal-header text-center"
+            style="
+              background-color: #ffd300;
+              font-family: Quicksand, Arial, Helvetica, sans-serif;
+            "
+          >
+            <h4 class="modal-title w-100 font-weight-bold">GET EARLY ACCESS</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3" >
+            <div class="md-form mb-5" >
+              <i class="fas fa-user prefix grey-text"></i>
+              <input
+                type="text"
+                id="defaultForm-name"
+                placeholder="Your Name"
+                class="form-control validate"
+              />
+              <!-- <label
+                data-error="wrong"
+                data-success="right"
+                for="defaultForm-name"
+                >Your Name</label >-->
+            </div>
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope grey-text"></i>
+              <input
+                type="email"
+                id="defaultForm-email"
+                placeholder="Your Email"
+                class="form-control validate"
+              />
+              <!-- <label
+                data-error="wrong"
+                data-success="right"
+                for="defaultForm-email"
+                >Your email</label
+              > -->
+            </div>
+            <div class="md-form mb-5">
+              <i class="fas fa-graduation-cap grey-text"></i>
+              <input
+                type="text"
+                id="defaultForm-college"
+                placeholder="College Name"
+                class="form-control validate"
+              />
+              <!-- <label
+                data-error="wrong"
+                data-success="right"
+                for="defaultForm-college"
+                >Your College Name</label
+              > -->
+            </div>
+            <div class="md-form mb-5">
+              <i class="fas fa-mobile grey-text"></i>
+              <input
+                type="text"
+                id="defaultForm-phone"
+                placeholder=" Phone number"
+                class="form-control validate"
+              />
+              <!-- <label
+                data-error="wrong"
+                data-success="right"
+                for="defaultForm-phone"
+                >Your Contact No.</label
+              > -->
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-warning">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="text-center">
+      <a
+        href=""
+        class="btn btn-default btn-rounded mb-4"
+        data-toggle="modal"
+        data-target="#modalLoginForm"
+        >Launch Modal Login Form</a
+      >
+    </div> -->
 
     <div
       class="blue negative section newsletter-signup vertical"
@@ -1339,12 +1481,13 @@
               <div class="empty-space marg-lg-b15"></div>
               <!-- TT-SUBSCRIBE -->
               <form>
-                <div class="tt-subscribe">
+                <div class="tt-subscribe" >
                   <input
                     type="text"
                     class="my-2"
                     required=""
                     placeholder="Enter your name"
+                    style="color: #ffd300;"
                   />
 
                   <input
@@ -1352,6 +1495,7 @@
                     class="my-2"
                     required=""
                     placeholder="Enter your email"
+                    style="color: #ffd300;"
                   />
                   <!--<input type="text" class="my-2" required=""  placeholder="Query/Feedback">-->
                   <textarea
@@ -1361,13 +1505,14 @@
                     class="my-2"
                     rows="3"
                     placeholder="Query/Feedback"
+                    style="color: #ffd300;"
                   ></textarea>
                   <!--<div class="tt-subscribe-submit">
         <i class="fa fa-paper-plane" aria-hidden="true"></i>
         <input type="submit" value="">
         </div>-->
 
-                  <button class="bluecolorbtn">Submit</button>
+                  <button class="btn btn-outline-primary">Submit</button>
                 </div>
               </form>
               <div class="empty-space marg-lg-b30"></div>
